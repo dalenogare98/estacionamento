@@ -23,6 +23,7 @@ public class Main {
         Calculador calculador = new Calculador();
         TelaMenu tela = new TelaMenu(controlador,calculador);
         tela.setVisible(true);
+        System.out.println("Testando essa porra");
     }
     
 }
